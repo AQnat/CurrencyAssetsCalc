@@ -1,0 +1,29 @@
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test/cache tooling
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+
+# Local runtime data (user-specific)
+user_data/
+
+# OS files
+.DS_Store
+Thumbs.db
+

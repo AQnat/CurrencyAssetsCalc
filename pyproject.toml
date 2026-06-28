@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CurrencyAssetsCalc"
+version = "1.0.0"
+authors = [
+  { name="Author", email="author@example.com" },
+]
+description = "System do przeliczania kursów walut i wyceny aktywów (akcje, krypto, surowce)."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.31.0",
+    "yfinance>=0.2.40",
+    "matplotlib>=3.7.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/CurrencyAssetsCalc"
+"Repository" = "https://github.com/yourusername/CurrencyAssetsCalc"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["core*", "providers*", "gui*", "assets*"]
