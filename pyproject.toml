@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "CurrencyAssetsCalc"
 version = "1.0.0"
 authors = [
-  { name="Author", email="author@example.com" },
+  { name="AQnat", email="adkunat@gmail.com" },
 ]
 description = "System do przeliczania kursów walut i wyceny aktywów (akcje, krypto, surowce)."
 readme = "README.md"
@@ -23,8 +23,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/CurrencyAssetsCalc"
-"Repository" = "https://github.com/yourusername/CurrencyAssetsCalc"
+"Homepage" = "https://github.com/AQnat"
+"Repository" = "https://github.com/AQnat/CurrencyAssetsCalc"
 
 [tool.setuptools.packages.find]
 where = ["."]
